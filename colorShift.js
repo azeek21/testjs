@@ -7,3 +7,6 @@ function shiftColor(colors) {
     colors.push(colors.shift())
 }
 shiftColor_timer = setInterval(shiftColor, 1000, colors);
+
+// Below line stops body color from changing.
+// clearInterval(shiftColor_timer);
