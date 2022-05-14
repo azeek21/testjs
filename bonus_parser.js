@@ -1,4 +1,4 @@
-let axios = require('axios');
+let axios = require('axios'); // 0.27.2
 let bonus = axios.get('https://54.uz/works.json').then(parser);
 
 function parser(res){
